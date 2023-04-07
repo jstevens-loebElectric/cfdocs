@@ -4,7 +4,7 @@
 	"syntax": "valueArray(query, column)",
 	"returns": "array",
 	"related": ["queryColumnData", "valueList"],
-	"description": "Returns an array of values for the given query and column.",
+	"description": "Returns an array of values for the given query and column. The name of the query parameter must not contain underscores.",
 	"params": [
 		{"name": "query", "description": "A query object", "required": true, "default": "", "type": "query", "values": []},
 		{"name": "column", "description": "The column name whose values you want", "required": true, "default": "", "type": "string", "values": []}
